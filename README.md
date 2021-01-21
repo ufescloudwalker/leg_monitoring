@@ -26,4 +26,4 @@ Após esse comando (ou alguma combinação dos arquivos ".launch" ja mencionados
 
 o tópico distance, *type float32*, é publicado e o gráfico com a identificação das pernas é plotado.
 
-FIGURA
+<img src="images/leg_monitoring.png" width="450">
