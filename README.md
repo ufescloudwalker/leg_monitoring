@@ -24,6 +24,6 @@ O repositório é dividido em:
 Após esse comando (ou alguma combinação dos arquivos ".launch" ja mencionados),
 >roslaunch leg_monitoring rplidar_and_leg_monitoring.launch
 
-o tópico distance, *type float32*, é publicado e o gráfico com a identificação das pernas é plotado.
+o tópico distance, *message type float32*, é publicado e o gráfico com a identificação das pernas é plotado.
 
 <img src="images/leg_monitoring.png" width="450">
