@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+<!--
+This launch file is used when RPLidar node is already launched and only leg_laser.py is needed
+-->
+
+  <node pkg="leg_monitoring" name="leg_monitoring" type="leg_laser.py" output="screen">
+	</node>
+
+</launch>

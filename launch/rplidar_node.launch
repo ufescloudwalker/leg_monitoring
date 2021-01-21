@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+<!--
+This launch file is used to launch RPLidar node and run leg-laser script
+-->
+
+<!--RPLidar node-->
+ <node name="rplidarNode"          pkg="rplidar_ros"  type="rplidarNode" output="screen">
+    <param name="serial_port"         type="string" value="/dev/rplidar"/>
+      <param name="serial_baudrate"     type="int"    value="256000"/>
+      <param name="frame_id"            type="string" value="laser"/>
+      <param name="inverted"            type="bool"   value="false"/>
+      <param name="angle_compensate"    type="bool"   value="true"/>
+      <param name="scan_mode"           type="string" value="Sensitivity"/>
+      <remap from="/scan" to="/scan_rplidar"/>
+  </node>
+
+</launch>
