@@ -27,3 +27,15 @@ Após esse comando (ou alguma combinação dos arquivos ".launch" ja mencionados
 o tópico distance, *message type float32*, é publicado e o gráfico com a identificação das pernas é plotado.
 
 <img src="images/leg_monitoring.png" width="450">
+
+**Citação**
+Ao utilizar este pacote, é necessário citar o trabalho abaixo. Os repositórios [formation_control](https://github.com/ufescloudwalker/formation_control), [face_orientation](https://github.com/ufescloudwalker/face_orientation) e [leg_monitoring](https://github.com/ufescloudwalker/leg_monitoring) são baseados no artigo [A novel multimodal cognitive interaction for walker-assisted rehabilitation therapies](https://ieeexplore.ieee.org/abstract/document/8779469/).
+
+>@inproceedings{scheidegger2019novel,
+  title={A novel multimodal cognitive interaction for walker-assisted rehabilitation therapies},
+  author={Scheidegger, Wandercleyson M and de Mello, Ricardo C and Jimenez, Mario F and M{\'u}nera, Marcela C and Cifuentes, Carlos A and Frizera-Neto, Anselmo and others},
+  booktitle={2019 IEEE 16th International Conference on Rehabilitation Robotics (ICORR)},
+  pages={905--910},
+  year={2019},
+  organization={IEEE}
+}
