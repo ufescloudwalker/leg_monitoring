@@ -28,7 +28,7 @@ o tópico distance, *message type float32*, é publicado e o gráfico com a iden
 
 <img src="images/leg_monitoring.png" width="450">
 
-**Citação**
+## Citação
 Ao utilizar este pacote, é necessário citar o trabalho abaixo. Os repositórios [formation_control](https://github.com/ufescloudwalker/formation_control), [face_orientation](https://github.com/ufescloudwalker/face_orientation) e [leg_monitoring](https://github.com/ufescloudwalker/leg_monitoring) são baseados no artigo [A novel multimodal cognitive interaction for walker-assisted rehabilitation therapies](https://ieeexplore.ieee.org/abstract/document/8779469/).
 
 >@inproceedings{scheidegger2019novel,
